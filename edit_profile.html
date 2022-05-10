@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+
+    <meta charset="UTF-8">
+    <title>اسواق العقيل</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+    <!-- start upper header ------------->
+
+    <section class="upper-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="phone"><img src="icons/Symbol%2010%20%E2%80%93%201.png"><span>خدمة العملاء : </span> 920009185</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="links">
+                        <ul class="list-unstyled">
+                            <a href="" data-toggle="modal" data-target="#login_modal">
+                                <li><i class="fas fa-sign-in-alt"></i> تسجيل دخول</li>
+                            </a>
+                            <a href="" data-toggle="modal" data-target="#register_modal">
+                                <li><i class="fas fa-user-plus"></i> تسجيل حساب جديد</li>
+                            </a>
+                            <a href="profile.html">
+                                <li><i class="fas fa-user-circle"></i> حسابى</li>
+                            </a>
+                            <a href="my_favourite.html">
+                                <li><i class="fas fa-heart"></i> المفضلة</li>
+                            </a>
+
+                            <a href="">
+                                <li style="border:0;"> تسجيل الخروج</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end upper header ------------->
+
+    <!-- start header ------------->
+
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="index"> <img src="images/logo.png"></a>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form class="d-flex">
+
+                        <input type="text" placeholder="ابحث ...." class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'ابحث ....'">
+
+
+                        <select class="form-control">
+                            <option>كل الاصناف</option>
+                            <option>تصنيف 1</option>
+                            <option>تصنيف 2</option>
+                            <option>تصنيف 3</option>
+                        </select>
+
+                        <button type="submit"><i class="fas fa-search"></i></button>
+
+
+                    </form>
+                </div>
+                <div class="col-md-3">
+                    <div class="other">
+                        <a href="cart.html">
+                            <div class="cart">
+                                <div class="icon">
+                                    <img src="icons/ic_shopping_basket_24px.png">
+                                    <div class="number">
+                                        <span>3</span>
+                                    </div>
+                                </div>
+                                <div class="price">
+                                    <p><span>3450 </span>ريال سعودى</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end header ------------->
+
+
+    <!------- start navbar ----------------->
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown mega">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          التصنيفات
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+
+                            <div class="container">
+                                <div class="title d-flex">
+                                    <span class="text-uppercase text-black">التصنيفات</span>
+                                    <span class="line"></span>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6 col-sm-6">
+                                        <ul class="nav flex-column">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="new_offers.html"><i class="fas fa-angle-left"></i>  تصنيف 1</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- /.col-md-4  -->
+                                </div>
+                            </div>
+                            <!--  /.container  -->
+
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          حول الشركة
+        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="title d-flex">
+                                <span class="text-uppercase text-black">حول الشركة</span>
+                                <span class="line"></span>
+                            </div>
+                            <a class="dropdown-item" href="about.html"><i class="fas fa-angle-left"></i> حول الشركة</a>
+                            <a class="dropdown-item" href="terms.html"><i class="fas fa-angle-left"></i> الشروط و الاحكام</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" style="border:0;">اتصل بنا</a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <!------- end navbar ----------------->
+
+    <!------------ start banner ------------>
+<section class="banner_sec" style="background:#f2f2f2">
+    <div class="container">
+        <div class="banner">
+            <h4>
+                <a href="index">الرئيسية</a> / حسابى
+            </h4>
+        </div>
+    </div>
+</section>
+<!------------ end banner ------------>
+
+<!----------- start profile ------------>
+
+<section class="profile">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="sidebar">
+                    <div class="media">
+                        <i class="fas fa-user ml-3"></i>
+                        <div class="media-body">
+                            <h5 class="mt-0">جون دو</h5>
+                            <p>john.doe@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="links">
+                        <ul class="list-unstyled">
+
+                            <a href="profile.html">
+                                <li><i class="fas fa-user"></i> حسابى</li>
+                            </a>
+                            <a href="edit_profile.html">
+                                <li  class="active"><i class="fas fa-pencil-alt"></i> تعديل البيانات</li>
+                            </a>
+                            <a href="change_password.html">
+                                <li><i class="fas fa-lock"></i> تعديل كلمة المرور</li>
+                            </a>
+                            <a href="add_credit.html">
+                                <li><i class="fas fa-credit-card"></i> اضافة رصيد</li>
+                            </a>
+
+                            <a href="order_archeive.html">
+                                <li><i class="fas fa-shopping-basket"></i> ارشيف الطلبات</li>
+                            </a>
+                            <a href="">
+                                <li><i class="fas fa-sign-out-alt"></i> تسجيل خروج</li>
+                            </a>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="title d-flex">
+                    <h3 class="text-uppercase text-black">حسابى</h3>
+                    <span class="line"></span>
+                </div>
+                <div class="content">
+                    <h4>تعديل البيانات</h4>
+                    <form>
+
+                        <label style="font-size:12px;font-weight:bold;">اسم المستخدم</label>
+                        <input type="text" class="form-control" value="جون دو">
+                        <label style="font-size:12px;font-weight:bold;">البريد الالكترونى</label>
+                        <input type="email" class="form-control" value="john.doe@gmail.com">
+                        <label style="font-size:12px;font-weight:bold;">رقم الهاتف</label>
+                        <input type="tel" class="form-control" value="097479839">
+                        <label style="font-size:12px;font-weight:bold;">تعديل الصورة الشخصية</label>
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="customFileLang" lang="es">
+                            <label class="custom-file-label" for="customFileLang">رفع صورة</label>
+                        </div>
+                        <input type="submit" value="تحديث البيانات">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------- end profile ------------>
+
+<!-------------- start footer -------->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+                <h4 class="sub">الموقع الرسمى لسلسلة اسواق العقيل بالمملكة العربية السعودية</h4>
+                <div class="social">
+                    <ul class="list-unstyled">
+                        <a href="" target="_blank">
+                            <li class="fab fa-facebook-f"></li>
+                        </a>
+                        <a href="" target="_blank">
+                            <li class="fab fa-twitter"></li>
+                        </a>
+                        <a href="" target="_blank">
+                            <li class="fab fa-instagram"></li>
+                        </a>
+                        <a href="" target="_blank">
+                            <li class="fab fa-whatsapp"></li>
+                        </a>
+                        <a href="" target="_blank">
+                            <li class="fab fa-google-plus-g"></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h4 class="title">روابط مختصرة</h4>
+                <div class="links">
+                    <ul class="list-unstyled">
+                        <a href="index.html">
+                            <li>الصفحة الرئيسية</li>
+                        </a>
+                        <a href="profile.html">
+                            <li>حسابى الشخصى</li>
+                        </a>
+                        <a href="cart.html">
+                            <li>سلة التسوق</li>
+                        </a>
+                        <a href="">
+                            <li>تسجيل خروج</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 class="title">تواصل معنا</h4>
+                <p><i class="fas fa-map-marker-alt"></i> شارع الملك عبدالعزيز ، الفيصلية ، حفر الباطن .</p>
+                <p><i class="fas fa-envelope"></i> info@alaqialmarkets.com</p>
+                <p><i class="fas fa-phone"></i> 920009185</p>
+                <p><i class="fas fa-phone-volume"></i> 0538257777</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-------------- end footer -------->
+
+<!-------------- start copyright -------->
+
+<section class="copyright">
+    <p>جميع الحقوق محفوظة &copy; 2017 اسواق العقيل</p>
+</section>
+
+<!-------------- end copyright -------->
+
+<!------ start product modal ----------------->
+
+<div class="modal fade" id="product_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog  modal-md" role="document">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="image">
+                    <img src="images/agriculture-close-up-decoration-51157.jpg">
+                </div>
+                <div class="title">
+                    <h5>بصل يمنى طازج كيس 2كجم</h5>
+                </div>
+                <div class="details">
+                    <h4>الرقم المرجعى لهذا المنتج هو : <span>0006898</span></h4>
+                    <h5>السعر : <span>3.86 <h6>ريال</h6></span></h5>
+                    <h5>الكمية : <span>
+                                <div class="quantity">
+                                    <input type="number" min="1" max="9" step="1" value="1">
+                                </div>
+                            </span>
+                    </h5>
+                </div>
+                <div class="button text-center">
+                    <a href=""><button><i class="fas fa-shopping-cart"></i>اضف الى السلة</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!------ end product modal ----------------->
+
+<!------ start login modal ----------------->
+
+<div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false" data-target="TARGET">
+    <div class="modal-dialog  modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">تسجيل دخول</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>البريد الالكترونى او الهاتف</label>
+                    <input type="email" placeholder="اكتب البريد الالكترونى او الهاتف" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'اكتب البريد الالكرتونى او الهاتف'">
+                    <label>كلمة السر</label>
+                    <input type="password" placeholder="كلمة السر" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'كلمة السر'">
+                    <input type="checkbox" class="myinput large" checked> تذكرنى
+                    <a href="" class="forget_password" data-toggle="modal" data-target="#forget_modal" data-dismiss="modal">نسيت كلمة السر؟</a>
+                    <div class="button text-center">
+                        <input type="submit" value="تسجيل الدخول">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!------ end login modal ----------------->
+
+<!------ start register modal ----------------->
+
+<div class="modal fade" id="register_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
+    <div class="modal-dialog  modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">تسجيل حساب جديد</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>الاسم الكامل</label>
+                    <input type="text" placeholder="اكتب الاسم الكامل" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'اكتب الاسم بالكامل'">
+                    <label>البريد الالكترونى</label>
+                    <input type="text" placeholder="اكتب بريدك الالكترونى" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'اكتب بريدك الالكترونى'">
+                    <label>رقم الهاتف</label>
+                    <input type="text" placeholder="اكتب رقم الهاتف" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'اكتب رقم الهاتف'">
+                    <label>كلمة السر</label>
+                    <input type="password" placeholder="كلمة السر" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'اكتب كلمة السر'">
+                    <label>تأكيد كلمة السر</label>
+                    <input type="password" placeholder="تأكيد كلمة السر" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'تأكيد كلمة السر'">
+                    <input type="checkbox" class="myinput large" checked> اقر انى قرأت و وافقت على <a href="terms">الشروط و الاحكام
+                    </a>
+                    <div class="button text-center">
+                        <input type="submit" value="تسجيل حساب جديد">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!------ end register modal ----------------->
+
+<!------ start forget passowrd modal ----------------->
+
+<div class="modal fade" id="forget_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="false">
+    <div class="modal-dialog  modal-md" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">نسيت كلمة السر</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+            <div class="modal-body">
+                <form>
+
+                    <label>البريد الالكترونى</label>
+                    <input type="text" placeholder="اكتب بريدك الالكترونى" class="form-control">
+                    <div class="button text-center">
+                        <input type="submit" value="استعادة كلمة السر">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!------ end forget passowrd modal ----------------->
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+</body>
